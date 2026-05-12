@@ -1,4 +1,6 @@
 .team {
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: #f4f4fd; /* Cloud */
 }
 
@@ -18,9 +20,15 @@
   margin-bottom: 72px;
 }
 
-.team-card-info {
-  padding: 32px 16px;
-  text-align: center;
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item img {
+  width: 100%;
+  display: block;
+  height: auto;
 }
 
 .team-item {
@@ -35,10 +43,9 @@
   text-align: center;
 }
 
-.team-item img {
-  width: 100%;
-  display: block;
-  height: auto;
+.team-card-info {
+  padding: 32px 16px;
+  text-align: center;
 }
 
 .team-member {
@@ -48,7 +55,6 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
   margin-bottom: 8px;
 }
 
@@ -57,15 +63,31 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
 
-.team-list {
+.team-soc-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
+  list-style: none;
 }
 
-.section .team-section {
+.team-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  /* transition: background-color: 250ms cubic-bexier(0.4, 0, 0.2, 1); */
+}
+
+.team-soc-icon {
+  fill: #4d5ae5;
+}
+
+.team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
 }

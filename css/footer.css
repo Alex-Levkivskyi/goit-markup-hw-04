@@ -1,8 +1,19 @@
 .footer {
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 100px 100px;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.footer-info {
+  padding-right: 120px;
+}
 .logo-studio-footer {
   color: #f4f4fd;
 }
@@ -23,4 +34,39 @@
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.footer-socials {
+  margin-bottom: 16px;
+}
+
+.socials-title {
+  font-weight: 500;
+  color: #ffffff;
+  margin: 16px;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  max-height: 40px;
+  height: 40px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.social-icon {
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }

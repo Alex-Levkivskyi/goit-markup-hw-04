@@ -1,4 +1,6 @@
 .header {
+  max-width: 1440px;
+  margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
   box-shadow:
     0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -9,6 +11,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px; /* чи треба задавати відступ замість марджін-лефт у списку? */
 }
 
 .header-nav {
@@ -55,17 +68,6 @@
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
-}
-
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px; /* чи треба задавати відступ замість марджін-лефт у списку? */
 }
 
 .logo-studio-header {
